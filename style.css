@@ -9,12 +9,13 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 12px;
+    padding-bottom: 60px;
 }
 
 .headlogo {
     font-size: 32px;
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .links {
@@ -34,4 +35,57 @@ ul {
 a {
     color: white;
     text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.uppercontent {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-around;
+    align-content: center;
+    padding: 18px;
+}
+
+.leftside {
+    display: flex;
+    max-width: 394.5px;
+    height: auto;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.rightside {
+    display: flex;
+    background-color: gray;
+    min-width: auto;
+    height: auto;
+    flex-grow: 0.5;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+
+}
+
+.subheader1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.uppercontent-text {
+    font-size: 18px;
+    color: #c2c5ca;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
 }

@@ -49,6 +49,7 @@ a {
     justify-content: space-around;
     align-content: center;
     padding: 18px;
+    padding-bottom: 120px;
 }
 
 .leftside {
@@ -78,7 +79,7 @@ a {
 
 .uppercontent-text {
     font-size: 18px;
-    color: #c2c5ca;
+    color: #E5E7EB;
 }
 
 button {
@@ -89,3 +90,41 @@ button {
     border: 2px solid white;
     color: white;
 }
+
+.middlecontent {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.info {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.infoplus {
+    display: flex;
+    width: 150px;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.infotext {
+    color: #37393b;
+}
+
+.fakepicture {
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: 6px solid #3882F6;
+}
+
